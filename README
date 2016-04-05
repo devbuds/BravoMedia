@@ -1,0 +1,47 @@
+Test Application for Bravomedia AB
+=====================================
+
+This is a test project for Bravomedia to help evaluate the skills of web developers
+that are interested in job openings.
+
+The purpose is to get a grasp on your skills regarding frontend as well as backend 
+development. The project is also a way for us to check your experience with git and MVC
+frameworks, more specifically the Yii framework (version 1.1).
+
+
+File structure
+-----------------
+design - Bravomedia design templates
+sql - sql-templates for this project
+yii
+	demos - official yii demo applications
+	docs - yii documentation
+	framework - the yii framework source files
+	requirements - requirement checker
+
+
+Objectives
+-----------------
+* clone this GIT project to your local development environment
+* create a branch with your name it and commit all your work to that branch
+* Use the demo in yii/demos/blog
+* implement a responsive framework design using the following design templates:
+	* design/desktop.png
+	* design/mobile.png
+	* (design instructions are located in design/README)
+	* (graphic elements are located in design/images/)
+* Create a menu with two items: Home and Products
+* For the menu-item "Products" use the content design available in design/desktop.png and design/mobile.png
+	* get the data from MySQL by importing sql/products.sql
+* Redesign the frontpage blog list with the same look and feel as in the design templates
+* Push the complete project to a Public GIT repository of your own and send us the URL
+
+Contact
+-----------------
+For any questions about this test, please use the following channels. Feel free to ask
+us anything, we want you to make the best of this test. You are not required to figure
+everything out on your own.
+
+Skype: sverre76 or gustav.larsson.se
+Google Hangout / E-mail: daniel@bravomedia.se or gustav@bravomedia.se
+
