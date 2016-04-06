@@ -46,7 +46,7 @@ return array(
 			'errorAction'=>'site/error',
 		),
 		'urlManager'=>array(
-			'urlFormat'=>'path',
+			'urlFormat'=>'get',
 			'rules'=>array(
 				'post/<id:\d+>/<title:.*?>'=>'post/view',
 				'posts/<tag:.*?>'=>'post/index',
