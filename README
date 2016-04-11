@@ -33,7 +33,8 @@ Objectives
 * Create a menu with two items: Home and Products
 * For the menu-item "Products" use the content design available in design/desktop.png and design/mobile.png
 	* get the data from MySQL by importing sql/products.sql
-* Redesign the frontpage blog list with the same look and feel as in the design templates
+* For the menu-item "Home" - redesign the frontpage blog list that is already a part of the blog demo and apply 
+  the same look and feel as we are using in the design templates.
 * Push the complete project to a Public GIT repository of your own and send us the URL
 
 Contact
