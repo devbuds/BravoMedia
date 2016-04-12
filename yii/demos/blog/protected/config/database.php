@@ -6,5 +6,6 @@ return array(
 	'username' => 'syehu564',
 	'password' => 'root',
 	'charset' => 'utf8',
+    'class'=>'CDbConnection',
 
 );

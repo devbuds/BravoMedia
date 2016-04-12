@@ -31,16 +31,12 @@ return array(
 			'tablePrefix' => 'tbl_',
 		),
 		// uncomment the following to use a MySQL database
-		/*
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=blog',
-			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
-			'charset' => 'utf8',
-			'tablePrefix' => 'tbl_',
-		),
-		*/
+		
+
+		
+	    // mysql database settings are configured in database.php
+ 	    'dbm'=>require(dirname(__FILE__).'/database.php'),
+	    
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
