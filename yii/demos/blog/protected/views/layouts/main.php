@@ -24,14 +24,23 @@
 <div class="container" id="page">
 
 	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		
+		
+		<div class="headLogo">
+			<img  src="<?php echo Yii::app()->request->baseUrl; ?>/images/bravomedia_black.png"  alt="Bravomedia logo" >
+		</div>
+		
+		
+		
+		
 	</div><!-- header -->
 
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
+		    'htmlOptions'=>array('class'=>'right-menulist'),
 			'items'=>array(
-				array('label'=>'Home', 'url'=>array('post/index')),
-			    array('label'=>'Product', 'url'=>array('site/product')),
+				array('label'=>'HOME', 'url'=>array('post/index')),
+			    array('label'=>'PRODUCTS', 'url'=>array('site/product')),
 			),
 		)); ?>
 	</div><!-- mainmenu -->
