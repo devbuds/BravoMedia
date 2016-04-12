@@ -22,6 +22,15 @@ class SiteController extends Controller
 			),
 		);
 	}
+	
+	/**
+	 *
+	 * Display the Products .
+	 */
+	public function actionProduct()
+	{
+	    $this->render('product');
+	}
 
 	/**
 	 * This is the action to handle external exceptions.
