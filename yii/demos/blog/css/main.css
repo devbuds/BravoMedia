@@ -1,4 +1,38 @@
 
+.footerLogo{
+	float: left;
+    padding: 1.5em;
+	margin-left:4em;
+}
+.footerLogo img{
+	height: 1.3em;
+} 
+.copyrightMessage-desktop{
+	color: white;  
+    font-size: 0.8em;
+    padding: 2.4em 7em 2.4em 2.4em;
+    float: right;	
+	display:block;
+}
+.copyrightMessage-desktop a{
+	color: white;
+	text-decoration: none;
+}
+.copyrightMessage-mobile{
+	display:none;
+	color: white;  
+    font-size: 0.8em;
+    text-align: center;	
+	background:black;
+	padding-bottom:2.2em;
+}
+.copyrightMessage-mobile 	a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
 .productListItem{
     float: left;
     padding: 1em;
@@ -11,10 +45,22 @@
     text-align:center;
 	margin:auto;
 	float:none;
+	}
+	.container {
+		width:auto;
+	}
+	.footerLogo{
+		float: none;
+		margin:0px;
+	}
+	.copyrightMessage-mobile{
+	display:block;
 }
-.container {
-	width:auto;
+	.copyrightMessage-desktop{
+	display:none;
 }
+
+	
 }
 
 .CSthumbnail {
@@ -113,11 +159,12 @@ body
 
 #footer
 {
-	padding: 10px;
-	margin: 10px 20px;
-	font-size: 0.8em;
-	text-align: center;
-	border-top: 1px solid #C9E0ED;
+	background: black none repeat scroll 0 0;
+    border-top: 1px solid #c9e0ed;
+    font-size: 0.8em;
+    margin: 20px 0 0;
+    text-align: center;
+	height:5em;
 }
 
 #logo
