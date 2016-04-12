@@ -13,8 +13,16 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-	    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext">
 	
+<!-- javascript files -->
+<?php 
+Yii::app()->clientScript->registerCoreScript('jquery');
+$cs = Yii::app()->getClientScript();
+$baseUrl = Yii::app()->baseUrl;
+$cs->registerScriptFile($baseUrl.'/js/main.js');
+
+?>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
