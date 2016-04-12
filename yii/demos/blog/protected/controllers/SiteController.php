@@ -28,8 +28,22 @@ class SiteController extends Controller
 	 * Display the Products .
 	 */
 	public function actionProduct()
-	{
-	    $this->render('product');
+	{	    
+	    $result = '';
+	    try
+	    {
+	        $sql = "SELECT * from products";	         
+	        $result = Yii::app()->dbm
+	        ->createCommand($sql)
+	        ->queryAll();
+	        
+	    }
+	    catch(Exception $ex)
+	    {
+	        echo 'Query failed' , $ex->getMessage();
+	    }
+	    
+	    $this->render('product', array('result' =>$result));
 	}
 
 	/**
