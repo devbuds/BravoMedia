@@ -1,9 +1,24 @@
 
+.right-menulist{
+	margin:0px;
+	float: right;
+}
 .footerLogo{
 	float: left;
     padding: 1.5em;
 	margin-left:4em;
 }
+.headLogo
+{
+	float: left;
+    padding-top: 3em;
+	margin-left:4em;
+}
+.headLogo img
+{
+	height: 1.3em;
+}
+
 .footerLogo img{
 	height: 1.3em;
 } 
@@ -30,8 +45,6 @@
 	color: white;
 	text-decoration: none;
 }
-
-
 
 .productListItem{
     float: left;
@@ -134,17 +147,12 @@ body
 
 #page
 {
-	margin-top: 5px;
-	margin-bottom: 5px;
 	background: white;
-	border: 1px solid #C9E0ED;
 }
 
 #header
 {
-	margin: 0;
-	padding: 0;
-	border-top: 3px solid #C9E0ED;
+    height: 6em;
 }
 
 #content
@@ -167,44 +175,43 @@ body
 	height:5em;
 }
 
-#logo
-{
-	padding: 10px 20px;
-	font-size: 200%;
-}
+
 
 #mainmenu
 {
-	background:white url(bg.gif) repeat-x left top;
+ border-bottom:2px solid #f7f7f7;
 }
 
 #mainmenu ul
 {
-	padding:6px 20px 5px 20px;
-	margin:0px;
+	margin-right: 4em;
+    margin-top: -21px;
 }
 
 #mainmenu ul li
 {
 	display: inline;
+	
 }
 
 #mainmenu ul li a
 {
-	color:#ffffff;
+	color:black;
 	background-color:transparent;
 	font-size:12px;
 	font-weight:bold;
-	text-decoration:none;
+	text-decoration:red;
 	padding:5px 8px;
+	font-family: 'Lato';
+	
+	
 }
-
 #mainmenu ul li a:hover, #mainmenu ul li.active a
 {
-	color: #6399cd;
-	background-color:#EFF4FA;
-	text-decoration:none;
+	border-bottom: 1px solid red;
 }
+
+
 
 div.flash-error, div.flash-notice, div.flash-success
 {
