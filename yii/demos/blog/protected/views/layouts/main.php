@@ -43,9 +43,22 @@
 	<?php echo $content; ?>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
+		<div class="footerLogo">
+			<img  src="<?php echo Yii::app()->request->baseUrl; ?>/images/bravomedia_white.png"  alt="Bravomedia logo" >
+		</div>
+		
+        <!--	for desktop view -->
+		<div class="copyrightMessage-desktop">Copyright &copy; <?php echo date('Y'); ?> by My Company 
+				All Rights Reserved.<?php echo Yii::powered(); ?>
+		</div>
+        
+        <!-- for mobile view only -->
+		<div class="copyrightMessage-mobile">
+            		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
+            		All Rights Reserved.<br/>
+            		<?php echo Yii::powered(); ?>
+		</div>	
+		
 	</div><!-- footer -->
 
 </div><!-- page -->
