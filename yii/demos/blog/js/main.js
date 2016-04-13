@@ -1,9 +1,16 @@
-/**
- * 
+/*
+ * Getting menu list items and adding them in mobile view mainmenu-mobile div
  */
 
-// make the  my saved tutorial bar disappear when user click on search button for searching the tutorials
-$(document).on('click', '.img-responsive', function(){
+$(document).on('click', '.mobile-menu-img', function(){
 	
-	alert('ok we got');
+	//	Getting menu items
+	var menuHtml = $('#'+'mainmenu').html();
+	
+//	adding menu items in mobile div
+	$('#'+'mainmenu-mobile').html(menuHtml);	
+	
+	// making mobile menu appear
+	var menuItems = $('#'+'mainmenu-mobile');
+	menuItems.fadeToggle();
 });
