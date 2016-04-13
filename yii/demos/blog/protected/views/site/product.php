@@ -1,4 +1,6 @@
 <?php
+
+echo "<div class=\"productList\">";
 foreach ($result as $row) {
 
     ?>
@@ -28,3 +30,4 @@ foreach ($result as $row) {
 </div>
     
 <?php  } ?>
+</div> <!--  !productList -->
