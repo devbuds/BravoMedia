@@ -31,17 +31,18 @@ $cs->registerScriptFile($baseUrl.'/js/main.js');
 
 <div class="container" id="page">
 
-	<div id="header">
-		
-		
+	<div id="header">		
+		<div class="mobile-menu">
+		<div class="menu_icon_container">
+		 <a href="#menu"><img class="mobile-menu-img"  src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_icon.png"  alt="menu_icon" ></a>
+		</div>
+	<div id="mainmenu-mobile">
+	</div><!-- mainmenu -->
+	</div>
 		<div class="headLogo">
 			<img  src="<?php echo Yii::app()->request->baseUrl; ?>/images/bravomedia_black.png"  alt="Bravomedia logo" >
 		</div>
-		
-		
-		
-		
-	</div><!-- header -->
+</div><!-- header -->
 
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
@@ -52,6 +53,7 @@ $cs->registerScriptFile($baseUrl.'/js/main.js');
 			),
 		)); ?>
 	</div><!-- mainmenu -->
+	
 
 	<?php $this->widget('zii.widgets.CBreadcrumbs', array(
 		'links'=>$this->breadcrumbs,

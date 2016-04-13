@@ -1,3 +1,33 @@
+.productList{
+    border: 1px solid black;
+    height: auto;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+    width: 94%;
+
+}
+.menu_icon_container{
+	float: right;
+}
+.mobile-menu{
+	float: right;
+    margin-right: 1em;
+    margin-top: 4em;
+	display:none;
+	
+}
+.mobile-menu-img{
+	margin:0px;
+}
+#mainmenu-mobile{
+	margin:0px;
+	display:none;
+}
+#mainmenu-mobile ul li a:hover, #mainmenu-mobile ul li.active a
+{
+ border-bottom: 1px solid red;
+}
 
 .right-menulist{
 	margin:0px;
@@ -11,7 +41,7 @@
 .headLogo
 {
 	float: left;
-    padding-top: 3em;
+    padding-top: 4em;
 	margin-left:4em;
 }
 .headLogo img
@@ -53,6 +83,42 @@
 
 @media screen and (max-width: 480px) 
 { 
+
+.right-menulist ul {
+	padding:0px;
+}
+.right-menulist li {
+	margin-bottom:0.5em;
+}
+.right-menulist{
+    background: black none repeat scroll 0 0;
+    border-radius: 4px;
+    font-size: 19px;
+    left: -2%;
+    list-style: outside none none;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    top: 9.5%;
+    width: 100%;
+    z-index: 10;
+}
+.right-menulist a{
+	color:white;
+	text-decoration:none;
+} 
+
+	
+#header {
+	border-bottom: 2px solid #f7f7f7;
+}
+
+#mainmenu{
+	display:none;
+}
+	.mobile-menu{
+	display:block;	
+}
 	.productListItem{
 	margin: auto;
     text-align:center;
@@ -142,7 +208,6 @@ body
 	padding: 0;
 	color: #555;
 	font: normal 10pt Arial,Helvetica,sans-serif;
-	background: #EFEFEF;
 }
 
 #page
@@ -201,8 +266,8 @@ body
 	font-size:12px;
 	font-weight:bold;
 	text-decoration:red;
-	padding:5px 8px;
 	font-family: 'Lato';
+	margin-left:2em;
 	
 	
 }
