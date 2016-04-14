@@ -40,7 +40,7 @@ $cs->registerScriptFile($baseUrl.'/js/main.js');
 	</div><!-- mainmenu -->
 	</div>
 		<div class="headLogo">
-			<img  src="<?php echo Yii::app()->request->baseUrl; ?>/images/bravomedia_black.png"  alt="Bravomedia logo" >
+			<a href="<?= $this->createUrl('post/index') ?>"><img  src="<?php echo Yii::app()->request->baseUrl; ?>/images/bravomedia_black.png"  alt="Bravomedia logo" ></a>
 		</div>
 </div><!-- header -->
 
@@ -63,7 +63,7 @@ $cs->registerScriptFile($baseUrl.'/js/main.js');
 
 	<div id="footer">
 		<div class="footerLogo">
-			<img  src="<?php echo Yii::app()->request->baseUrl; ?>/images/bravomedia_white.png"  alt="Bravomedia logo" >
+			<a href="<?= $this->createUrl('post/index') ?>"><img  src="<?php echo Yii::app()->request->baseUrl; ?>/images/bravomedia_white.png"  alt="Bravomedia logo" ></a>
 		</div>
 		
         <!--	for desktop view -->
