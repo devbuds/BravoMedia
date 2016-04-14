@@ -1,3 +1,9 @@
+#content-blog{
+	padding:30px;
+}
+.span-18 {
+    width: 43em;
+}
 .productList{
     height: auto;
     margin: auto;
@@ -6,8 +12,16 @@
     width: 87%;
 
 }
+.blogContainer{
+	 height: auto;
+    margin: auto;
+    overflow: auto;
+    text-align: left;
+    width: 87%;
+}
 .menu_icon_container{
 	float: right;
+	margin-right:3em;
 }
 .mobile-menu{
 	float: right;
@@ -82,7 +96,15 @@
 
 @media screen and (max-width: 480px) 
 { 
-
+.productList{
+	width:95%;
+}
+#content-blog{
+	padding:18px;
+}
+.span-18{
+	width:auto;
+}
 .right-menulist ul {
 	padding:0px;
 }
@@ -130,6 +152,10 @@
 	.footerLogo{
 		float: none;
 		margin:0px;
+	}
+	.headLogo{
+			margin-left: 12%;
+	
 	}
 	.copyrightMessage-mobile{
 	display:block;
@@ -227,7 +253,7 @@ body
 
 #sidebar
 {
-	padding: 20px;
+	padding: 23px;
 }
 
 #footer
@@ -249,7 +275,7 @@ body
 #mainmenu ul
 {
 	margin-right: 7.6em;
-    margin-top: -2em;
+    margin-top: -1.7em;
 }
 
 #mainmenu ul li
@@ -273,7 +299,7 @@ body
 #mainmenu ul li a:hover, #mainmenu ul li.active a
 {
 	border-bottom: 2px solid red;
-	padding-bottom:0.9em;
+	padding-bottom:0.5em;
 }
 
 
