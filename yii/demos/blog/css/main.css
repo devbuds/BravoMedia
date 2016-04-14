@@ -1,3 +1,7 @@
+#comment-form{
+	width:53%;
+}
+
 #content-blog{
 	padding:30px;
 }
@@ -49,7 +53,7 @@
 .footerLogo{
 	float: left;
     padding: 1.5em;
-	margin-left:4em;
+	margin-left:7em;
 }
 .headLogo
 {
@@ -68,7 +72,7 @@
 .copyrightMessage-desktop{
 	color: white;  
     font-size: 0.8em;
-    padding: 2.4em 7em 2.4em 2.4em;
+    padding: 2.4em 10em 2.4em 2.4em;
     float: right;	
 	display:block;
 }
@@ -96,6 +100,18 @@
 
 @media screen and (max-width: 480px) 
 { 
+.row input {
+	width:200%;
+}
+.buttons input {
+	width:70px;
+}
+.row textarea {
+	width:200%;
+}
+.buttons input {
+	width:70px;
+}
 .productList{
 	width:95%;
 }
