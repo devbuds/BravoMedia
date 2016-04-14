@@ -1,10 +1,9 @@
 .productList{
-    border: 1px solid black;
     height: auto;
     margin: auto;
     overflow: auto;
     text-align: center;
-    width: 94%;
+    width: 87%;
 
 }
 .menu_icon_container{
@@ -41,12 +40,12 @@
 .headLogo
 {
 	float: left;
-    padding-top: 4em;
-	margin-left:4em;
+    padding-top: 3.7em;
+	margin-left:7em;
 }
 .headLogo img
 {
-	height: 1.3em;
+	height: 1.4em;
 }
 
 .footerLogo img{
@@ -93,13 +92,13 @@
 .right-menulist{
     background: black none repeat scroll 0 0;
     border-radius: 4px;
-    font-size: 19px;
+    font-size: 1.5em;
     left: -2%;
     list-style: outside none none;
     padding: 5px;
     position: absolute;
     text-align: center;
-    top: 9.5%;
+    top: 7.7%;
     width: 100%;
     z-index: 10;
 }
@@ -156,7 +155,7 @@
 }
 .img-responsive{
 	height: auto;
-    width: 230px;
+    width: 208px;
 }
 .caption{
 	margin:0px;
@@ -208,6 +207,7 @@ body
 	padding: 0;
 	color: #555;
 	font: normal 10pt Arial,Helvetica,sans-serif;
+	background:#dedede;
 }
 
 #page
@@ -233,7 +233,6 @@ body
 #footer
 {
 	background: black none repeat scroll 0 0;
-    border-top: 1px solid #c9e0ed;
     font-size: 0.8em;
     margin: 20px 0 0;
     text-align: center;
@@ -249,8 +248,8 @@ body
 
 #mainmenu ul
 {
-	margin-right: 4em;
-    margin-top: -21px;
+	margin-right: 7.6em;
+    margin-top: -2em;
 }
 
 #mainmenu ul li
@@ -265,7 +264,7 @@ body
 	background-color:transparent;
 	font-size:12px;
 	font-weight:bold;
-	text-decoration:red;
+	text-decoration:none;
 	font-family: 'Lato';
 	margin-left:2em;
 	
@@ -273,7 +272,8 @@ body
 }
 #mainmenu ul li a:hover, #mainmenu ul li.active a
 {
-	border-bottom: 1px solid red;
+	border-bottom: 2px solid red;
+	padding-bottom:0.9em;
 }
 
 
