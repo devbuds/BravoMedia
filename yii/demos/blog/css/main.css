@@ -363,6 +363,8 @@ div.breadcrumbs
 {
 	font-size: 0.9em;
 	padding: 5px 20px;
+	margin-left:8%;
+	width:75%;
 }
 
 div.breadcrumbs span
